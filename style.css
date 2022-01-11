@@ -1,0 +1,69 @@
+@keyframes costaring {
+  0% {
+    left: 15px;
+    bottom: 170px;
+  }
+  16% {
+    left: 100px;
+    bottom: 280px;
+  }
+  32% {
+    left: 185px;
+    bottom: 170px;
+  }
+  48% {
+    left: 270px;
+    bottom: 280px;
+  }
+  64% {
+    left: 360px;
+    bottom: 170px;
+  }
+  80% {
+    left: 445px;
+    bottom: 280px;
+  }
+  96% {
+    left: 530px;
+    bottom: 170px;
+  }
+}
+
+/* .coster-boy {
+  position: relative;
+  animation: cost 3s ease-in-out 0.01s 5 alternate;
+  animation-play-state: paused;
+} */
+
+.frame:hover {
+  border: 2px dashed springgreen;
+}
+.ball {
+  height: 50px;
+  width: 50px;
+  color: mediumaquamarine;
+  position: relative;
+  bottom: 170px;
+  left: 15px;
+  border-radius: 50px;
+  background-color: mediumaquamarine;
+  animation: costaring 5s ease-in-out 0.1s infinite;
+} /* 
+#boy {
+  width: 100px;
+  position: relative;
+  top: 170px;
+  left: 5px;
+  z-index: 2;
+}
+#ring {
+  width: 100px;
+  position: relative;
+  top: 90px;
+  left: 5px;
+  z-index: 1;
+}
+#water {
+  width: 10px;
+  position: relative;
+} */
